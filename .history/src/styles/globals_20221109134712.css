@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply hover:underline cursor-pointer;
+  }
+  .nav {
+    @apply flex text-lg text-white items-center cursor-pointer 
+    rounded-sm hover:border-2 p-2 h-8 font-semibold py-4;
+  }
+}
